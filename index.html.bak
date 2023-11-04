@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
+.design-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+  min-height: 100vh;
+  padding: 100px 0;
+  font-family: Jost;
+}
+
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-content {
+  padding: 20px;
+  background: #244248;
+  
+  border-radius: 5px;
+  color: antiquewhite;
+  padding: 1.75rem;
+  transition: 0.4s ease;
+  overflow-wrap: break-word !important;
+  margin: 1rem;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.timeline-component {
+  margin: 0px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+  .timeline-middle {
+    position: relative;
+    width: 3px;
+    left: 50%;
+    height: 100%;
+     background: antiquewhite;
+  border: 2px solid #006E51;
+  border-radius: 16px;
+  }
+  .main-middle {
+    opacity: 0;
+  }
+
+
+  
+}
+
+
+</style> <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  
+</style> <title>SMALLGIANT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+
+      rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+
+      crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="CSS/stlye.css">
+    <meta name="author" content="SMALLGIANT">
+    <meta name="description" content="Smallgiant's resume website for apply a user experience writer position.">
+    <meta name="keywords" content="Smallgiant, User Experience Writer, Resume.">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top ">
+      <div class="container-fluid"> <a class="navbar-brand" href="#" style="color: antiquewhite;">SMALLGIANT</a>
+        <button class="navbar-toggler" type="button" btn-secondary data-bs-toggle="collapse" data-bs-target="#navbarNav"
+
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse nav justify-content-center " id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"> <a class="nav-link active" aria-current="page"
+
+                href="#Home" style="color: antiquewhite;" >Home</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#about" style="color: antiquewhite;">
+                about</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#education" style="color: antiquewhite;">education</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="#experience" style="color: antiquewhite;">experience</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="#experience" style="color: antiquewhite;">experience</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="#Skill" style="color: antiquewhite;">Skill</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="#Portfolio" style="color: antiquewhite;">Portfolio</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="#Contact" style="color: antiquewhite;">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div id="Home">
+        <header class="my-header">
+          <div class="my-header-info">
+            <div style="text-align: center;">
+              <div class="my-porfile" style="text-align: center;"> <img
+
+                  src="images/yahyah.jpg" class="rounded-circle" alt="yahsan" style="width: 348px; height: 348px;"></div>
+              <h3 class="my-h3" style="text-align: center;">SMALLGIANT
+                <dl style="text-align: center;">
+                  <dt>User EXperience writer</dt>
+                </dl>
+              </h3>
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+    <div class="black">
+      <div class="container">
+        <div id="about">
+          <div class="row">
+            <div class="col-md-10 col-lg-7">
+              <div style="text-align: center;">
+                <h1 class="my-h1"><span style="color: antiquewhite;">About
+                    SMALLGIANT<br>
+                  </span></h1>
+              </div>
+              <br>
+              <br>
+              <div class="about-me">
+                <h3>&nbsp; ojective </h3>
+                <p class="my-ab" style="text-align: justify;">
+                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; I am
+                  Smallgiant. Apply for a user experience writer who creates
+                  messages, phrases, and sentences that help users of digital
+                  products have the best user experience. Along with conveying
+                  your brand's tone of voice for users to absorb and know how
+                  unique your brand is. </p>
+                <button type="button" class="btn-normal">
+                  <h4 class="mylink" style="background-color: white;"> <a title="CV"
+
+                      target="_blank" href="file:///C:/Users/tunsa/OneDrive/Desktop/%E0%B8%82%E0%B9%81%E0%B8%87%E0%B9%81%E0%B8%97%E0%B8%A3%E0%B9%88/Ladawan_CV.pdf">Download
+                      CV</a> </h4>
+                </button> </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-10 col-lg-7">
+              <div class="mymy">
+                <div class="my-info">
+                  <h3> personal information </h3>
+                  <p style="text-align: left;"> Full name&nbsp;&nbsp; &nbsp; :
+                    &nbsp; Mrs.Ladawan Pandohla<br>
+                    ID &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; : &nbsp; 640510607 <br>
+                    Pseudonym&nbsp; :&nbsp;&nbsp;&nbsp; Smallgiant <br>
+                    Age&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp; :&nbsp;&nbsp; 20 years <br>
+                    Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp; 47
+                    Phraborommathat Rd, Tambon Nai Mueang, MueangDistrict,
+                    Nakhon Si Thammarat 80000<br>
+                    Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    :&nbsp; yahbomaz2003@gmail.com <br>
+                    Call&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    :&nbsp;&nbsp; 0622429126 </p>
+                  <!-- Button trigger modal --> <button type="button" class="btn btn-light"
+
+                    data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Click and get to know me more! </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+
+                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="staticBackdropLabel"
+
+                            style="color: black" ;=""> '*•.¸♡ About me shortly
+                            ♡¸.•*' </h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal"
+
+                            aria-label="Close"></button> </div>
+                        <div class="modal-body">
+                          <p class="shortly" style="color: black" ;=""> Hi! My
+                            name is Ladawan, I consider myself a responsible and
+                            orderly person with excellent combination of Art and
+                            Science. Also a multitasking skill. </p>
+                        </div>
+                        <div class="modal-footer"> <button type="button" class="btn btn-info"
+
+                            data-bs-dismiss="modal" style="color: white">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="white">
+      <div class="container">
+        <div id="education">
+          <div class="row">
+            <div class="col-md-10 lg-4">
+              <div class="edu">
+                <h1 class="my-ed" style="text-align: center;">&nbsp; <span style="color: #244248;">Education</span>
+                </h1>
+                <br>
+                <br>
+                <div class="timeline">
+                  <!--Well, The reason for this div is to fill space. 
+This space is technically used for keeping dates, but I didn't find the need for dates. However, I'll provide you the styling for dates, so that you can use it if you wanted to.-->
+                  <div class="timeline-empty"> </div>
+                  <!--This is the class where the timeline graphics are 
+housed in. Note that we have timeline-circle here for that pointer in timeline.-->
+                  <div class="timeline-middle">
+                    <div class="timeline-circle"> </div>
+                  </div>
+                  <div class="timeline-component timeline-content">
+                    <h3>2016-2018</h3>
+                    <p>lower secondary school Wat Phra Mahathat school <br>
+                      GPAX 3.50</p>
+                  </div>
+                  <div class="timeline-component timeline-content">
+                    <h3>2018-2021</h3>
+                    <p>High School (English-Chinese) Kanlayanee Si Thammarat
+                      school <br>
+                      GPAX 3.53</p>
+                  </div>
+                  <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                  </div>
+                  <div class="timeline-empty"> </div>
+                  <div class="timeline-empty"> </div>
+                  <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                  </div>
+                  <div class=" timeline-component timeline-content">
+                    <h3>2021-2024</h3>
+                    <p>Bachelor of Arts (Information and Library Science)
+                      Silpakorn University <br>
+                      GPAX 3.80</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="experience">
+              <div class="row">
+                <div class="col-md-10 lg-4">
+                  <h1 class="my-work" style="text-align: center;">&nbsp;<b>
+                      experience</b> </h1>
+                  <br>
+                  <br>
+                  <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h1 class="accordion-header"> <button class="accordion-button"
+
+                          type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne"
+
+                          aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          Freelance </button> </h1>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                          <h6> <strong>2021-present</strong> Got a freelance
+                            job about proofreading.</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h1 class="accordion-header"> <button class="accordion-button collapsed"
+
+                          type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+
+                          aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          Proofread </button> </h1>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body"> <strong>2022-present</strong>
+                          Worked with author as proofread to publish novels into
+                          online platform such as Dek-d, readAwrite and
+                          Tunwalai. </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h1 class="accordion-header"> <button class="accordion-button collapsed"
+
+                          type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+
+                          aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          Editor assistant </button> </h1>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body"> <strong>2023-present</strong>
+                          Used to be editor assistant to edit content as Thai
+                          subtitle for anime on Bilibili. </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="black">
+      <div class="container">
+        <div id="Skill">
+          <div class="row">
+            <div clss="object">
+              <h1 class="my-h1" style="text-align: center;"><span style="color: antiquewhite;">Skill</span></h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="oio">
+              <div class="col-md-12 col-lg-4">
+                <div class="skill">
+                  <h3> program </h3>
+                  <br>
+                  <p> adobe photoshop </p>
+                  <progress value="80" max="100" style="--value: 80; --max: 100;"></progress>
+                  <br>
+                  <p> adobe premiere pro </p>
+                  <progress value="70" max="100" style="--value: 75; --max: 100;"></progress>
+                  <br>
+                  <p> adobe illustrator </p>
+                  <progress value="60" max="100" style="--value: 60; --max: 100;"></progress>
+                  <br>
+                  <p> microsoft office </p>
+                  <progress value="90" max="100" style="--value: 90; --max: 100;"></progress>
+                  <br>
+                  <p> Canva </p>
+                  <progress value="100" max="90" style="--value: 90; --max: 100;"></progress>
+                </div>
+              </div>
+              <div class="col-md-12 col-lg-4">
+                <div class="lang">
+                  <h3> language </h3>
+                  <br>
+                  <p> Thai </p>
+                  <progress value="100" max="100" style="--value: 100; --max: 100;"></progress>
+                  <br>
+                  <p> English </p>
+                  <progress value="70" max="70" style="--value: 70; --max: 100;"></progress>
+                  <br>
+                  <p> chiness </p>
+                  <progress value="30" max="100" style="--value: 30; --max: 100;"></progress>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="white">
+      <div class="container">
+        <div id="Portfolio">
+          <div class="row">
+            <div class="col-md-10 col-lg-7">
+              <h1 class="my-ed" style="text-align: center;"> <span style="color: #244248;">Portfloio</span>
+              </h1>
+              <br>
+              <h3 style="text-align: center;"> <span style="color: #244248;">Website
+                  Design </span></h3>
+              <span style="color: #244248;"> </span>
+              <p style="text-align: center;"><span style="color: #244248;">Participate
+                  in website styling name <u><b>"ready to read"</b></u></span></p>
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleIndicators"
+
+                    data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators"
+
+                    data-bs-slide-to="1" aria-label="Slide 2"></button> <button
+
+                    type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+
+                    aria-label="Slide 3"></button> <button type="button" data-bs-target="#carouselExampleIndicators"
+
+                    data-bs-slide-to="3" aria-label="Slide 4"></button> <button
+
+                    type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+
+                    aria-label="Slide 5"></button> <button type="button" data-bs-target="#carouselExampleIndicators"
+
+                    data-bs-slide-to="5" aria-label="Slide 0"></button> </div>
+                <div class="my-inner">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active"> <img src="images/web/1.png"
+
+                        class="d-block w-100" alt="..." style="width: 200px; height: 500px;">
+                    </div>
+                    <div class="carousel-item"> <img src="images/web/2.png" class="d-block w-100"
+
+                        alt="..." style="width: 200px; height: 500px;"> </div>
+                    <div class="carousel-item"> <img src="images/web/3.png" class="d-block w-100"
+
+                        alt="..." style="width: 200px; height: 500px;"> </div>
+                    <div class="carousel-item"> <img src="images/web/4.png" class="d-block w-100"
+
+                        alt="..." style="width: 200px; height: 500px;"> </div>
+                    <div class="carousel-item"> <img src="images/web/5.png" class="d-block w-100"
+
+                        alt="..." style="width: 200px; height: 500px;"> </div>
+                    <div class="carousel-item"> <img src="images/web/6.png" class="d-block w-100"
+
+                        alt="..." style="width: 200px; height: 500px;"> </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+
+                    data-bs-slide="prev"> <span class="carousel-control-prev-icon"
+
+                      aria-hidden="true"></span> <span class="visually-hidden">Previous</span>
+                  </button> <button class="carousel-control-next" type="button"
+
+                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span> </button> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-lg-4">
+            <h3 style="text-align: center;"> <span style="color: #244248;">Application
+                Design </span></h3>
+            <span style="color: #244248;"> </span>
+            <div style="text-align: center;"><span style="color: #244248;">
+                Participate in application styling name</span></div>
+            <div style="text-align: center;"><span style="color: #244248;"> <u><b>"shoping
+                    with trusting"</b></u></span></div>
+            <div style="text-align: center;"><span style="color: #244248;"><u><b><br>
+                  </b></u></span></div>
+            <span style="color: #244248;"> </span>
+            <div id="app" class="carousel slide">
+              <div class="carousel-indicators"> <button type="button" data-bs-target="#app"
+
+                  data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                </button> <button type="button" data-bs-target="#app" data-bs-slide-to="1"
+
+                  aria-label="Slide 2"></button> <button type="button" data-bs-target="#app"
+
+                  data-bs-slide-to="2" aria-label="Slide 3"></button> <button type="button"
+
+                  data-bs-target="#app" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#app" data-bs-slide-to="4"
+
+                  aria-label="Slide 0"></button> </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active"> <img src="images/app/1.png"
+
+                    class="img-fluid" "d-block="" w-100"alt="..." style="width: 1000px; height: 700px;">
+                </div>
+                <div class="carousel-item"> <img src="images/app/2.png" class="img-fluid"
+
+                    "d-block="" w-100"alt="..." style="width: 9000px; height: 700px;">
+                </div>
+                <div class="carousel-item"> <img src="images/app/3.png" class="img-fluid"
+
+                    "d-block="" w-100"="" alt="..." style="width: 1000px; height: 700px;">
+                </div>
+                <div class="carousel-item"> <img src="images/app/4.png" class="img-fluid"
+
+                    "d-block="" w-100"alt="..." style="width: 1000px; height: 700px;">
+                </div>
+                <div class="carousel-item"> <img src="images/app/5.png" class="img-fluid"
+
+                    "d-block="" w-100"="" alt="..." style="width: 1000px; height: 700px;">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#app"
+
+                data-bs-slide="prev"> <span class="carousel-control-prev-icon"
+
+                  aria-hidden="true"></span> <span class="visually-hidden">Previous</span>
+              </button> <button class="carousel-control-next" type="button" data-bs-target="#app"
+
+                data-bs-slide="next"> <span class="carousel-control-next-icon"
+
+                  aria-hidden="true"></span> <span class="visually-hidden">Next</span>
+              </button> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="black">
+      <div class="container">
+        <div id="Contact">
+          <div class="row">
+            <div class="col-md-8 col-lg-4">
+              <div class="my-contact">
+                <div style="text-align: center;">
+                  <h1 class="my-h1"><span style="color: antiquewhite;">CONTACT
+                      SMALLGIANT !</span></h1>
+                  <br>
+                </div>
+                <br>
+                <div class="my-email" style="text-align: center;"> <img src="images/SVG/EMAIL.png"
+
+                    alt="email" style="width: 92px; height: 64px;"></div>
+                <div style="text-align: center;"><br>
+                </div>
+                <p style="text-align: center;"> <b><span style="color: antiquewhite;">yahbomz2003@gmail.com
+                      </span></b></p> <br>
+                <br>
+                <div class="my-call" style="text-align: center;"> <img src="images/SVG/phone.png"
+
+                    alt="call" style="width: 81px; height: 81px;"></div>
+                <br>
+                <p style="text-align: center;"> <b style="color: antiquewhite;">0622429126
+                    </b></p> <br>
+                <br>
+                <div class="my-address" style="text-align: center;"> <img src="images/SVG/locate.png"
+
+                    alt="locate" style="width: 69px; height: 85px;"></div>
+                <div style="text-align: center;"><span style="color: antiquewhite;"><br>
+                  </span> </div>
+                <span style="color: antiquewhite;"> </span>
+                <p style="text-align: center;"><span style="color: antiquewhite; ">
+                    <b>Smallgiant L. 47 Phraborommathat Rd, MueangDistrict,
+                      Nakhon Si Thammarat, Thailand </b></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footerBottom">
+      <p> Copyright ©2024; Desighnd by <span class="desighner">Ladawan</span> </p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+
+crossorigin="anonymous"></script>
+  </body>
+</html>

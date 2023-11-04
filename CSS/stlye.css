@@ -1,0 +1,498 @@
+nav {
+background-color: #244248;
+display: flex;
+align-items: center;
+font-family: 'Noto Serif', serif;
+}
+
+
+.nav-item {
+  padding-left:5rem;
+
+}
+
+.h2 {
+color: antiquewhite;
+}
+
+.row {
+ display: flex;
+justify-content: space-around;
+  padding: 2rem 0;
+  
+}
+
+nav ul li a {
+text-decoration: none;
+color: antiquewhite;
+padding: 15px 35px;
+text-transform: uppercase;
+transition: .3s ease;
+  
+}
+
+nav ul li a:hover {
+color: white;
+}
+
+.modal-dialog p {
+font-size: 20px;
+line-height: 50px;
+  color: black;
+  padding: 1rem;
+  font-family: 'Noto Serif', serif;
+}
+
+.mymy {
+display: flex;
+justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.mylink{
+color: white;
+  font-family: 'Noto Serif', serif;
+}
+
+.white{
+ background-color: antiquewhite;
+
+}
+
+
+.btn-hamburger {
+font-size: 1.5rem
+paddind: 10px;
+background: none;
+border: none
+cursor: pointer;
+display: none;
+} 
+
+.black {
+ background-color: #244248;
+}
+
+
+.my-header {
+  background-color: c5ebc5;
+  height: 900px;
+  font-family: 'Noto Serif', serif;
+  background-position: center;
+  display: flex;
+justify-content: center;
+}
+
+.my-h3 {
+font-size: 80px;
+font-family: 'Noto Serif', serif;
+font-weight: bolder;
+ text-transform: uppercase;
+  line-height: 95px;
+  margin-top: 3rem;  
+  color: BROWN;
+}
+  
+.my-header-info {
+  margin: 3em
+    display: flex;
+justify-content: center;
+}
+
+.my-porfile {
+margin-top: 10rem;
+}
+
+.my-about {
+  height: 300px;
+}
+
+.oio {
+display: flex;
+justify-content: space-around;
+  padding: 2rem 0;
+}
+
+.my-h1{
+text-transform: uppercase;
+font-size: 3rem;
+border-style: outset; 
+color: antiquewhite;
+border-color: antiquewhite;
+padding: 1rem;
+ font-family: 'Noto Serif', serif;
+}
+
+.my-ed {
+  text-transform: uppercase;
+font-size: 3rem;
+  border-style: outset; 
+  color: #244248;
+border-color: #244248;
+  padding: 1rem;
+  font-family: 'Noto Serif', serif;
+}
+
+.my-skill {
+text-transform: uppercase;
+font-size: 3rem;
+   border-style: outset; 
+  color: antiquewhite;
+border-color: antiquewhite;
+  padding: 1rem;
+  font-family: 'Noto Serif', serif;
+}
+
+.my-work {
+ text-transform: uppercase;
+font-size: 3rem;
+  border-style: outset; 
+  color: #244248;
+border-color: #244248;
+  padding: 1rem
+font-family: 'Noto Serif', serif;
+}
+
+.my-contact {
+  
+  align-items: center;
+}
+
+.about-me {
+  width: 100%;
+  color: antiquewhite;
+}
+
+.about-me h3 {
+    text-transform: uppercase;
+  font-size: 25px;
+color: antiquewhite;
+  font-family: 'Noto Serif', serif;
+}
+
+.about-me p {
+  color: antiquewhite;
+font-size: 20px;
+  line-height: 50px;
+    font-family: 'Noto Serif', serif;
+
+}
+
+.my-info{
+  width: 100%;
+  color: antiquewhite; 
+  
+}
+
+.my-info h3 {
+    text-transform: uppercase;
+  font-size: 25px; 
+  color: antiquewhite;
+  line-height: 35px;
+    font-family: 'Noto Serif', serif;
+}
+
+.my-info p {
+font-size: 20px;
+line-height: 50px;
+  color: antiquewhite;
+  padding: 1rem;
+    font-family: 'Noto Serif', serif;
+}
+
+.skill {
+width: 100%;
+ line-height: 35px;
+  color: antiquewhite; 
+     padding:3rem;
+     justify-content: center;
+}
+
+.skill h3 {
+text-transform: uppercase;
+  font-size: 2rem;
+color: antiquewhite;
+  line-height: 30px;
+    font-family: 'Noto Serif', serif;
+}
+
+.skill p {
+  text-transform: uppercase;
+font-size: 16px;
+line-height: 35px;
+  color: antiquewhite;
+    font-family: 'Noto Serif', serif;
+
+}
+
+.lang {
+width: 100%;
+ line-height: 25px;
+  color: antiquewhite;
+  padding:3rem;
+     justify-content: center;
+}
+
+.lang h3{
+text-transform: uppercase;
+  font-size: 2rem;
+color: antiquewhite;
+    font-family: 'Noto Serif', serif;
+
+}
+
+.lang p {
+  text-transform: uppercase;
+font-size: 16px;
+line-height: 35px;
+  color: antiquewhite;
+}
+
+@property --progress-value {
+  syntax: '<integer>';
+  inherits: true;
+  initial-value: 0;
+}
+
+
+:root {
+  --progress-bar-color: #cfd8dc;
+  --progress-value-color: #2196f3;
+  --progress-empty-color-h: 4.1;
+  --progress-empty-color-s: 89.6;
+  --progress-empty-color-l: 58.4;
+  --progress-filled-color-h: 122.4;
+  --progress-filled-color-s: 39.4;
+  --progress-filled-color-l: 49.2;
+}
+
+progress[value] {
+  display: block;
+  
+  appearance: none;
+  width: 100%;
+  height: 20px;
+  border: 0;
+  --border-radius: 10px;
+  border-radius: var(--border-radius);
+  counter-reset: progress var(--progress-value);
+  --progress-value-string: counter(progress) '%';
+  --progress-max-decimal: calc(var(--value, 0) / var(--max, 0));
+  --progress-value-decimal: calc(var(--progress-value, 0) / var(--max, 0));
+  @supports selector(::-moz-progress-bar) {
+    --progress-value-decimal: calc(var(--value, 0) / var(--max, 0));
+  }
+  --progress-value-percent: calc(var(--progress-value-decimal) * 100%);
+  --progress-value-color: hsl(
+    calc((var(--progress-empty-color-h) + (var(--progress-filled-color-h) - var(--progress-empty-color-h)) * var(--progress-value-decimal)) * 1deg)
+    calc((var(--progress-empty-color-s) + (var(--progress-filled-color-s) - var(--progress-empty-color-s)) * var(--progress-value-decimal)) * 1%)
+    calc((var(--progress-empty-color-l) + (var(--progress-filled-color-l) - var(--progress-empty-color-l)) * var(--progress-value-decimal)) * 1%)
+  );
+  animation: calc(3s * var(--progress-max-decimal)) linear 0.5s 1 normal both progress;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: #aa886c;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+progress[value]::-webkit-progress-value {
+  width: var(--progress-value-percent) !important;
+  background-color: antiquewhite;
+  border-radius: var(--border-radius);
+}
+
+progress[value]::-moz-progress-bar {
+  width: var(--progress-value-percent) !important;
+  background-color: brown;
+  border-radius: var(--border-radius);
+}
+
+progress[value]::after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  --size: 30px;
+  width: var(--size);
+  height: var(--size);
+  position: static;
+  left: var(--progress-value-percent);
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #244248;
+  border-radius: 50%;
+  content: attr(value);
+  content: var(--progress-value-string, var(--value));
+  font-size: 12px;
+  font-weight: 700;
+  color: antiquewhite;
+}
+
+@keyframes progress {
+	from {
+		--progress-value: 0;
+	} to {
+		--progress-value: var(--value);
+	}
+}
+
+my-inner {
+width: 100%;
+height: 80px;
+
+}
+
+footer {
+background-color: antiquewhite;
+color: darkslategray;
+padding: 2rem;
+text-align: center;
+}
+
+.fcontainer {
+width: 100%;
+padding: 70px 30px 20px;
+}
+
+.spcialicon {
+display: flex;
+justify-content: center;
+}
+
+.spcialicon a {
+text-decoration: none;
+padding: 10px;
+background-color: aquamarine;
+}
+
+.footerbottom p {
+color: white;
+    font-family: 'Noto Serif', serif;
+
+}
+
+.footerBottom {
+  padding: 20px;
+  text-align: center;
+ background-color: white;
+}
+
+.desighner {
+opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 400;
+  margin: 0px 5px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    font-family: 'Noto Serif', serif;
+
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    font-family: 'Noto Serif', serif;
+
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+@media only screen  and (max-width: 900px) 
+{
+ 
+nav { background-color: #244248;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.btn-hamburger { display: block;
+  position: fixed ;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+}
+nav h { margin: 20px 0;
+}
+
+nav ul {
+width: 100%;
+background-color: #000;
+display: none;
+flex-direction: column;
+transition: .3s ease;
+}
+
+nav ul li a {
+display: flex;
+justify-content: center;
+border: bottom: 1px solid #aa886c;
+}
+.nav-active {
+  display: flex;
+}
+}
+
+
+
+.accordion-header {
+font-family: 'Noto Serif', serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+
+}
+
+#experience h1 {
+font-family: 'Noto Serif', serif;
+  text-transform: uppercase;
+}
